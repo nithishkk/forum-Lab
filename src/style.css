@@ -4,6 +4,7 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .parent{
+  display: flex;
   position: absolute;
 width: 1366px;
 height: 80px;
@@ -65,4 +66,93 @@ height: 512px;
 left: 0px;
 top: 81px;
 background: linear-gradient(98.45deg, #2EAB7D 41.59%, #8AC593 103.79%);
+}
+.inside{
+  position: absolute;
+width: 642px;
+height: 98px;
+left: 362px;
+top: 135px;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 125%;
+/* or 48px */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.content{
+  position: absolute;
+width: 491px;
+height: 23px;
+left: 437px;
+top: 244px;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 125%;
+/* identical to box height, or 22px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.search{
+  
+  position: absolute;
+width: 600px;
+height: 60px;
+left: 383px;
+top: 297px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+.Search_Contant{
+
+  position: absolute;
+  width: 196px;
+  height: 21px;
+  left: 52px;
+  top: 19px;
+
+
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #979797;
+
+}
+.button{
+
+}
+.btn{
+  position: absolute;
+  width: 132px;
+  height: 52px;
+  left: 464px;
+  top: 4px;
+  
+  border: 2px solid #FFFF;
+  background: #FDA349;
+  border-radius: 100px;
+
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 125%;
+/* or 22px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
 }
